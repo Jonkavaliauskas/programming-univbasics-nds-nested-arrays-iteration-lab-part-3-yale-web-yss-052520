@@ -19,5 +19,5 @@ def join_nested_strings(src)
     row_index += 1
   end
   joined_strings = array_of_strings.join(" ")
-
+  binding.pry
 end
