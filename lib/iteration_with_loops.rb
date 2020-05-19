@@ -7,9 +7,9 @@ def join_nested_strings(src)
   while row_index < src.count do
     element_index = 0
     inner_results = []
-    llongest_string_element = ""
+    joined_string = ""
     while element_index < src[row_index].count do
-      if src[row_index][element_index] < lowest_value
+      if src[row_index][element_index] == str
         lowest_value = src[row_index][element_index]
       end
       element_index += 1
