@@ -14,6 +14,7 @@ def join_nested_strings(src)
       if src[row_index][element_index].is_a? String
         array_of_strings.push(src[row_index][element_index])
       end
+      outter_result.push(array_of_strings)
       element_index += 1
     end
     row_index += 1
