@@ -1,5 +1,4 @@
 
-require 'pry'
 
 def join_nested_strings(src)
   # src will be an Array of Arrays of Strings and Integers
@@ -22,4 +21,3 @@ def join_nested_strings(src)
   joined_strings = array_of_strings.join(" ")
   
 end
-binding.pry
