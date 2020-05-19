@@ -6,11 +6,10 @@ def join_nested_strings(src)
   row_index = 0
   while row_index < src.count do
     element_index = 0
-    inner_results = []
-    joined_string = ""
+    array_of_strings = []
     while element_index < src[row_index].count do
       if src[row_index][element_index].is_a? String
-        src[row_index][element_index]
+        array_of_string.push(src[row_index][element_index])
       end
       element_index += 1
     end
