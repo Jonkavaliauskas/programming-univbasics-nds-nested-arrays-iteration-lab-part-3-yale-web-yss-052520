@@ -9,8 +9,8 @@ def join_nested_strings(src)
     inner_results = []
     joined_string = ""
     while element_index < src[row_index].count do
-      if src[row_index][element_index].is_s?
-        lowest_value = src[row_index][element_index]
+      if src[row_index][element_index].is_a? String
+        joined.string("")
       end
       element_index += 1
     end
